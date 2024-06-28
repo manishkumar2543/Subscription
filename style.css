@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.moneycontrol.com/static-mcnews/2022/12/Netflix-year-end-770x433.jpg?impolicy=website&width=770&height=431);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-top: 10%;
+    color: white;
+    font-weight: 600;
+}
+
+.box-container{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    flex-wrap: wrap;
+  
+  
+    
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(9, 9, 9);
+    padding: 15px;
+    border-right: 1px solid gray;
+    
+   
+}
+
+.adds{
+    color: white;
+}
+.per-month{
+    margin: 15px 0;
+}
+.per-month h1{
+    color: white;
+    font-size: 30px;
+}
+.per-month p{
+    color: rgb(185, 181, 181);
+}
+
+
+
+.offers{
+    display: flex;
+    gap: 3px;
+    padding: 5px 0;
+    color: rgb(185, 181, 181);
+
+}
+.offers p{
+    font-size: 13px;
+
+}
+.btn-continue button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    color: rgb(152, 147, 147);
+    margin-top: 10px;
+
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-right: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+.box3{
+    height: 350px;
+    width: 300px;
+   background-color: rgb(255, 255, 255);
+   padding: 15px;
+}
+.adds-3{
+    color: rgb(41, 20, 199);
+}
+.per-month-3{
+    margin: 15px 0;
+}
+.per-month-3 h1{
+    color: rgb(41, 20, 199);
+    font-size: 30px;
+}
+.per-month-3 p{
+   color: black;
+}
+
+
+
+.offers-3{
+    display: flex;
+    gap: 3px;
+    padding: 5px 0;
+    color: black;
+
+}
+.offers-3 p{
+    font-size: 13px;
+
+}
+.btn-continue-3 button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+   background-color: rgb(41, 20, 199);
+   color: white;
+    margin-top: 10px;
+    transition: 2s ease-in-out;
+
+}
+.btn-continue-3 button:hover{
+    background-color: #5d5dc4;
+    color: rgb(149, 144, 144);
+}
